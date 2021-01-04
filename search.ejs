@@ -1,0 +1,75 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
+  </head>
+  <body>
+    <div class="box">
+      <form class="box" action="/search" method="post">
+        
+          <!--<div class = "col-sm-2 offset-sm-4">
+            <form class="col-sm-2 offset-sm-4" action="/search" method="post">
+              <select name = "mySelect" class ="form-control" >
+                <option value = "">-----</option>
+                <option value = "1">BACKGROUND</option>
+                <option value = "2">OBJECTIVES</option>
+                <option value = "3">METHODS</option>
+                <option value = "4">CONCLUSIONS</option>
+                <option value = "5">RESULTS</option>
+                <option value = "6">OTHERS</option>
+              </select>
+          </div> -->
+          
+          <font face="Helvetica" color="White">Search for...</font>
+          <div class="container-1">
+              <span class="icon"><i class="fa fa-search"></i></span>
+              <input name="search" type="text" id="search" placeholder="Search..." /> 
+              
+          </div>
+          
+          <BODY>
+            <form name=cb method=post action="#" onSubmit="return checkIt()">
+            
+            <p><font face="Helvetica" color="White">based on the paper's</font></p>
+            
+            <input type=checkbox name=favor value=BACKGROUND ><font size="2.5" face="Helvetica" color="white" > BACKGROUND</font><br>
+            <input type=checkbox name=favor value=OBJECTIVES > <font size="2.5" face="Helvetica" color="white">OBJECTIVES</font><br>
+            <input type=checkbox name=favor value=METHODS> <font size="2.5" face="Helvetica" color="white">METHODS</font><br>
+            <input type=checkbox name=favor value=RESULTS> <font size="2.5" face="Helvetica" color="white">RESULTS</font><br>
+            <input type=checkbox name=favor value=CONCLUSIONS> <font size="2.5" face="Helvetica" color="white">CONCLUSIONS</font><br>
+            <input type=checkbox name=favor value=OTHERS> <font size="2.5" face="Helvetica" color="white">OTHERS</font><br>
+            
+            </form>
+          </BODY>
+          
+        </div>
+  </body>
+  
+</html>
+
+
+
+
+
+
+<script> 
+
+  function isSelected(value) { 
+  
+
+  var mySelect = document.getElementById("mySelect"); 
+  alert(mySelect.options[mySelect.selectedIndex].innerText); 
+  
+  }
+  function question() {
+ 
+  }
+</script>
+

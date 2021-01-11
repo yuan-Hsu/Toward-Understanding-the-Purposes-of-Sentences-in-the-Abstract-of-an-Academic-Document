@@ -2,7 +2,7 @@
 
 Dataset:本實驗操作的原始dataset和切割後的dataset
 
-bin:從官方網站下載elasticsearch後(https://www.elastic.co/elasticsearch/)，取代資料夾中的bin即可匯入文章至elasticsearch中。
+bin:從官方網站下載elasticsearch後取代資料夾中的bin即可匯入文章至elasticsearch中。
 
 cal_num.py:包含兩部分的程式碼: 永遠預測background和根據文章結構來預測
 

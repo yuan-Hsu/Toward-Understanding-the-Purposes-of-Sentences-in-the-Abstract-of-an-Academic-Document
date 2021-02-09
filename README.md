@@ -11,3 +11,5 @@ cal_num.py:包含兩部分的程式碼: 永遠預測background和根據文章結
 (tf-idf) : https://colab.research.google.com/drive/1CrNoIdLoJYaZAPFuSV9nZ_0PTBJU2XaP
 
 (5 classification) : https://colab.research.google.com/drive/1qu3jgQvX8_uuHJ9NjoF6-qF89peFBp_I
+
+(other datas): https://drive.google.com/drive/u/1/folders/1sCBCphmmT9bTO_YkbJ5Yk3Fpibh9Xrrm
